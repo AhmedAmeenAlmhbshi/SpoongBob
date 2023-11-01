@@ -1,0 +1,136 @@
+body{
+    direction: rtl;
+    font-size: 1.5rem;
+    background-color: rgb(120, 164, 203);
+}
+.food , #Drink{
+    width: 40%;
+    padding: 10px;
+    background-color: brown;
+    border: 1px black solid;
+    justify-content: space-between;
+    margin: auto;
+    position: relative;
+    left: 250px;
+    border-radius: 30px;
+}
+#Drink{
+    display: none;
+    border: 1px black solid;
+    background-color: darksalmon;
+    position: relative;
+    right: 300px; 
+    top: -700px;   
+}
+#Drink img{
+    height: 350px;
+    width: 250px;
+
+}
+
+img{
+    height: 350px;
+    width: 50%;
+ padding: auto;  
+}
+.food img{
+    width: 500px;
+}
+
+.one,.three,.two,.four{
+    background-color: rgb(223, 176, 137);
+    width: 85%;
+    border-radius: 50px;
+}
+.one{
+
+    height: 70px;
+    background-color: rgb(223, 176, 137);
+
+}
+.one input{
+    width: 50px;
+}
+input{
+    position: relative;
+    left: -80px;
+    top: -50px;
+}
+
+.four input{
+    height: 100px;
+    width: 98%;
+    border-radius: 50px;
+    position: relative;
+top: -1px;
+left: 0px;
+
+}
+#order{
+    display: none;
+    max-width: 1100px;
+    border-radius: 30px;
+    width: 90%;
+    height: 1400px;
+    background-color: aqua;
+}
+
+nav a{
+width: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    text-decoration: none;
+    color: #000000;
+    border: 3px rgba(3, 3, 3, 0.195) solid;
+    border-radius: 50px;
+    background-color: #4c61b8b6;
+    padding: 10px 10%;
+    margin: 0 2%;
+    clear: right;
+    position: relative;
+    top: 6px;
+
+}
+button{
+    height: 21px;
+    width: 65px;
+    font-style:oblique;
+    font-size:medium;
+    text-shadow:0 1px  1px rgb(68, 68, 68);
+    background-color: rgb(36, 116, 196);
+    border:0.1 black solid;
+    border-radius: 0 17px 0 0; 
+    position: relative;
+    right: -69px;
+    top: -3px;
+ 
+}
+
+#drink{
+    width: 1%;
+position: relative;
+top: -300px;
+left: 100px;
+}
+#thanks{
+    display: none;
+    height: 140px;
+    width: 350px;
+    background-color: darksalmon;
+    border: 3px black double;
+    border-radius: 20px;
+    position: relative;
+    top: -390px;
+    right: 372px;
+}
+#doneButton{
+    width: 20%;
+    height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    position: relative;
+    right: 170px ;
+    top: 70px;
+    border-radius: 30px;
+    background-color: brown;
+}

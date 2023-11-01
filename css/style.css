@@ -1,0 +1,27 @@
+body { 
+    display: flex;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: #444;
+    justify-content: center;
+    align-items: center;
+    font-family: arial;
+
+}
+section{
+    border: 2px white solid;
+    padding: 40px;
+}
+input{
+    background-color: #333;
+}
+
+#sub{
+    border: 2px rgb(0, 0, 0) solid;
+    margin: 5% 30%;
+    padding: 10px;
+    background-color: #545353;
+    color: rgb(0, 0, 0);
+}
+

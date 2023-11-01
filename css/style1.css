@@ -1,0 +1,125 @@
+body{
+    height: 2000px;
+    direction: rtl;
+    background: #db3853b6;
+
+}
+
+ul{
+    display:contents;
+    position: relative;
+    top:0;
+}
+
+#imgHead{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top: 18px;
+    border-radius: 30px 30px 0 0;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    flex-direction: row;
+    border: #000000 1px solid;
+    position:relative;
+    top: 50px;
+    left: 100px;
+    clear: right;
+    margin: 100px;
+}
+
+.container img{
+    height: 400px;
+    width: 300px;
+    margin-right: 10px;
+    scroll-snap-align:center;
+
+}
+
+.container img:hover{
+    border: #000000 1px solid;
+    border-radius: 40px;
+    background-color: rgb(195, 84, 116);
+}
+
+#a{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    text-decoration: none;
+    color: #000000;
+    border: 3px rgba(3, 3, 3, 0.195) solid;
+    border-radius: 50px;
+    background-color: #ecc14bb6;
+    padding: 10px 10%;
+    margin:0 8%;
+    clear: right;
+    position: relative;
+    top: 6px;
+}
+
+.container::-webkit-scrollbar{
+    width: 12px;
+    height: 12px;
+}
+
+.container::-webkit-scrollbar:hover{
+    background-color: rgb(240, 145, 20);
+}
+
+.container::-webkit-scrollbar-button{
+    background-color: #000000;
+}
+
+#restaurant{
+    width:200px ;
+    border-radius:30px 30px 0 0 ;
+}
+.place{
+    border-bottom:5px double black;
+    border-left: 5px double black;
+    border-radius: 30px 0 0 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    text-shadow: 1px 0 1px #ffffff;
+
+}
+span div{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #db3853b6;
+    width: 300px;
+    height: 200px;
+    border: #000000 1px solid;
+    float: right;
+    margin: 30px;
+    padding: 30px;
+    box-shadow: 3px 3px 1px black;
+}
+
+span div:hover{
+    box-shadow: 3px 3px 2px  white;
+    border-color: #000000b6;
+}
+
+span img{
+    height: 60px;
+    width: 80px;
+    background-color: rgb(220, 215, 206);
+    border: #000000 3px double;
+    border-radius: 50px;
+    position: relative;
+    right: -20px;
+}
+
+span p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    position: relative;
+    right: 20px;
+}

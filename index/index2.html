@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../css/style2.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <center>
+      <nav>
+      <a href="index3.html">التعليقات</a>
+      <a href="index1.html">الرئيسية</a>
+    </nav>
+      
+      <img src="../imges/berger.jpg" />
+
+      <button id="myButton">طلــــب</button>
+
+      <div id="order">
+        <div class="food">
+          <img src="../imges/BackgroundEraser_٢٠٢٣١٠٢٠_٢٢٤٣٤٦٧٨١.png" alt="" />
+          <div class="two">
+            نوع الخبز
+            <p>أسمر</p>
+            <input id="bread" type="radio" name="bread" checked />
+            <p>أبيض</p>
+            <input id="bread" type="radio" name="bread" />
+          </div>
+
+          <div class="three">
+            <p>سلطة</p>
+            <input id="salad" type="checkbox" checked />
+          </div>
+          <div class="one">
+            <p>رقم الطاولة</p>
+            <input id="desk" type="number" />
+          </div>
+
+          <div class="four">
+            <p>ملاحظات على الخدمة</p>
+            <input id="text" type="text" />
+          </div>
+          <button id="doneButton" > جاهز</button>
+        </div>
+
+        <img src="../imges/juice.png" alt="" />
+        <input id="drink" type="checkbox" onchange="ListDrink()" checked /><br />
+       
+        <div id="Drink">
+
+          <p>عصير :</p>
+          <input id="juice" type="radio" name="juice" /><br />
+
+          <p>مشروب غازي :</p>
+          <input id="juice" type="radio" name="juice" checked /><br />
+        </div><br>
+        
+        <div id="thanks">
+          <h2>شكرا لزيارة مطعم سلطع برجر <br> طلبك سيأتي حالاً</h2>
+        </div>
+      </div>
+    </center>
+
+    <script src="../script/script2.js"></script>
+  </body>
+</html>
